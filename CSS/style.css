@@ -1,3 +1,6 @@
+/* NAVIGATION*/
+
+
 body{
     height:100%
 }
@@ -31,10 +34,12 @@ nav{
     height: 80%;
   }
 
+/* HERO IMAGE & INTRODUCTION */
+
 .gridContainer{
     display:grid;
     padding-left:200px;
-    padding-top:250px;
+    padding-top:325px;
     grid-template-columns:30% 70%;
     grid-template-rows: 80% 15% 5%;
     grid-template-areas: 
@@ -87,10 +92,47 @@ nav{
     color:white;
 }
 
+/* CASE STUDY GRIDS */
+.caseStudygrid{
+    padding-top:50px;
+    padding-bottom:100px;
+    padding-left:50px;
+    padding-right:50px;
+    grid-gap:15px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:100% 100%;
+    grid-template-areas:
+    "venturely snowUT snowUT"
+    "dhsGOV dhsGOV creativeDay"
+}
+
+.venturely{
+    grid-area:venturely;
+    background-color:lightblue;
+}
+
+.snowUT{
+    grid-area:snowUT;
+    background-color:lightcoral;
+}
+
+.dhsGOV{
+    grid-area:dhsGOV;
+    background-color:lightseagreen;
+}
+
+.creativeDay{
+    grid-area:creativeDay;
+    background-color:lightpink;
+}
+
+
+/* FOOTER */
 
 .footerGrid{
-    padding-top:20px;
     padding-bottom:20px;
+    padding-top:20px;
     background-color:#AA6969;
     display:grid;
     grid-template-columns:25% 50% 25%;
