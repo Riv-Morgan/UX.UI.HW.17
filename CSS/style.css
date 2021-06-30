@@ -137,6 +137,7 @@ nav{
 /* CASE STUDY GRIDS */
 .caseStudygrid{
     padding-top:50px;
+    background-color:blue;
     padding-bottom:100px;
     padding-left:50px;
     padding-right:50px;
@@ -173,6 +174,7 @@ nav{
 /* FOOTER */
 
 .footerGrid{
+    
     padding-bottom:20px;
     padding-top:20px;
     background-color:#AA6969;
@@ -212,4 +214,16 @@ nav{
     border-bottom-style:solid;
     border-bottom-width:2px;
     align-self:end;
+}
+
+.caseStudygrid {
+    background: linear-gradient(173deg, #aa6969, #f7f7f7, #d0d0d0, #bb9b9b);
+    background-size: 800% 800%;
+    animation: Gradient 16s ease infinite;
+}
+
+@keyframes Gradient { 
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
 }
