@@ -38,19 +38,61 @@ nav{
 
 .gridContainer{
     display:grid;
-    padding-left:200px;
-    padding-top:325px;
-    grid-template-columns:30% 70%;
-    grid-template-rows: 80% 15% 5%;
+    margin-top:200px;
+    margin-left:100px;
+    margin-right:100px;
+    grid-column-gap:15px;
+    grid-template-columns:35% 65%;
+    grid-template-rows: 70% 20% 10%;
     grid-template-areas: 
     "leftSidebar topRight"
     "leftSidebar bottomRight"
     "leftSidebar mainButton";
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .gridContainer{
+    grid-template-columns:50% 50%;
+  }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .gridContainer{
+        grid-template-columns:45% 55%;
+      }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .gridContainer{
+        grid-template-columns:40% 60%;
+      }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .gridContainer{
+        grid-template-columns:35% 65%;
+      }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .gridContainer{
+        grid-template-columns:35% 65%;
+      }
+  }
+
 .leftSidebar{
     grid-area:leftSidebar;
 
+}
+
+.selfie{
+    align-self:end;
+    width:100%;
 }
 
 .topRight{
@@ -66,7 +108,7 @@ nav{
     grid-area: bottomRight;
     color:black;
     font-family: 'Montserrat', sans-serif;
-    font-size:170%;
+    font-size:122%;
     font-weight:300;
 }
 
