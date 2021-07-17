@@ -1,41 +1,7 @@
 /* NAVIGATION*/
-
-body{
-    height:100%;
-    margin: 0;
-    background-image:url(../IMAGES/RESUME\ HERO\ FINAL@2x.png);
-    background-repeat:no-repeat;
-    background-attachment:scroll;
-    background-position:top;
-    background-size:cover;
-    }
-
-
-nav{
-    display: flex;
-    width: 100%;
-    height: 20%;
-    padding-top:20px;
-    align-items: flex-end;
-    justify-content: center;
-  }
-  
-  a{
-    text-decoration: none;
-    color: white;
-    margin: 0 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight:300;
-    font-size: 150%;
-    border-bottom:white;
-    border-bottom-style:solid;
-    border-bottom-width:2px;
-  }
-  
-  #logo{
-    height: 80%;
-  }
-
+.bg-light{
+    background-color: transparent;
+}
 
 /* HERO IMAGE & INTRODUCTION */
 .intro{
