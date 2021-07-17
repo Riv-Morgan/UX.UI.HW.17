@@ -1,14 +1,14 @@
 /* NAVIGATION*/
 
 body{
-    height:100%
-}
-
-body{
+    height:100%;
     margin: 0;
-    
-}
-
+    background-image:url(../IMAGES/RESUME\ HERO\ FINAL@2x.png);
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:top;
+    background-size:cover;
+    }
 
 
 nav{
@@ -60,10 +60,14 @@ h2{
 
 /* Extra small devices (phones, 600px and down) */
 
-.resume{
-    display:flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+.gridContainer{
+    display:grid;
+    margin-top:200px;
+    margin-left:100px;
+    margin-right:100px;
+    grid-column-gap:15px;
+    grid-template-columns:40% 30% 30%;
+    grid-template-rows:auto;
     grid-template-areas: 
     "summary summary summary"
     "techSkills techSkills techSkills"
@@ -71,7 +75,26 @@ h2{
 }
 
 .summary{
+    grid-area:summary;
     align-content:center;
+    background-color: blue;
+}
+.techSkills{
+    grid-area:techSkills;
+    background-color: red;
+}
+
+.uxUI{
+    grid-area:uxUI;
+    background-color: green;
+}
+.software{
+    grid-area:software;
+    background-color: pink;
+}
+.frontendDev{
+    grid-area:frontendDev;
+    background-color:aqua;
 }
 
 /* CASE STUDY GRIDS */
