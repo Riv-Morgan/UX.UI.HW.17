@@ -1,67 +1,65 @@
 /* NAVIGATION*/
-.bg-light{
-    background-color: transparent;
+.navbar-brand{
+    justify-content:center;
 }
+.nav-link{
+    font-family:'Montserrat', sans-serif;
+    font-weight:300;
+    color:white !important;
+    border-bottom: solid white 1px;
+
+}
+
+.nav-item{
+    padding-left:15px;
+    padding-right:15px;
+}
+
 
 /* HERO IMAGE & INTRODUCTION */
-.intro{
-   padding-top:10%;
-    text-align:right;
-    margin-right:20px;
-    line-height:10px;
-}
-    
-H1{
-    font-family:'Montserrat', sans-serif;
-    font-size:500%;
-    font-weight:500;
+.jumbotron{
+    background-image: url(../IMAGES/hero\ test@2x.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-h2{
-    font-family:'Montserrat', sans-serif;
-    font: size 200%;
-    font-weight:300; 
+.img-responsive{
+    padding-top:80%;
+    align-content:left;
 }
+
+
+.intro{
+    padding-top:70%;
+    padding-left:10%;
+    font-family:'Montserrat', sans-serif;
+    font-weight:500;
+    color:#AA6969 !important;
+    border-bottom: solid white 1px;
+}
+
+.bio{
+    padding-left:10%;
+    color:black;
+    font-family:'Montserrat', sans-serif;
+    font-weight:300;
+}
+
+.btn {
+    background-color:#AA6969;
+    border-color:#AA6969;
+    margin-left:10%;
+    font-weight:300;
+}
+
+
+
 
 
 /* Extra small devices (phones, 600px and down) */
 
-.gridContainer{
-    display:grid;
-    margin-top:200px;
-    margin-left:100px;
-    margin-right:100px;
-    grid-column-gap:15px;
-    grid-template-columns:40% 30% 30%;
-    grid-template-rows:auto;
-    grid-template-areas: 
-    "summary summary summary"
-    "techSkills techSkills techSkills"
-    "uxUI software frontendDev"
-}
-
-.summary{
-    grid-area:summary;
-    align-content:center;
-    background-color: blue;
-}
-.techSkills{
-    grid-area:techSkills;
-    background-color: red;
-}
-
-.uxUI{
-    grid-area:uxUI;
-    background-color: green;
-}
-.software{
-    grid-area:software;
-    background-color: pink;
-}
-.frontendDev{
-    grid-area:frontendDev;
-    background-color:aqua;
-}
 
 /* CASE STUDY GRIDS */
 
@@ -70,45 +68,8 @@ h2{
 
 /* FOOTER */
 
-.footerGrid{
-    
-    padding-bottom:20px;
-    padding-top:20px;
-    background-color:#AA6969;
-    display:grid;
-    grid-template-columns:25% 50% 25%;
-    grid-template-rows: 100%;
-    grid-template-areas: 
-    "footerLeft footerCenter footerRight";
+.navbar-lt{
+    background-color: #AA6969;
+    padding-bottom:5%
 }
 
-.footerLeft{
-    grid-area:footerLeft;
-    color:white;
-    justify-self:end;
-    font-family: 'Montserrat', sans-serif;
-    font-weight:300;
-    font-size: 100%;
-    border-bottom:white;
-    border-bottom-style:solid;
-    border-bottom-width:2px;
-    align-self:end;
-}
-
-.footerCenter{
-    grid-area:footerCenter;
-    justify-self:center;
-}
-
-.footerRight{
-    grid-area:footerRight;
-    color:white;
-    justify-self:start;
-    font-family: 'Montserrat', sans-serif;
-    font-weight:300;
-    font-size: 100%;
-    border-bottom:white;
-    border-bottom-style:solid;
-    border-bottom-width:2px;
-    align-self:end;
-}
