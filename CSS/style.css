@@ -62,9 +62,18 @@
 
 
 /* CASE STUDY GRIDS */
+.card-columns{
+    padding-left:5%;
+    padding-right:5%;
+}
 
+.quote1 {
+    font-family: 'Playfair Display', serif !important;
+}
 
-
+.quote2 {
+    font-family: 'Playfair Display', serif !important;
+}
 
 /* FOOTER */
 
